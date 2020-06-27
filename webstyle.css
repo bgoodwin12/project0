@@ -17,6 +17,7 @@ th {
   border-collapse: collapse;
   padding: 10px;
   font-family: verdana;
+  font-size: 200%;
 }
 
 td {
@@ -28,4 +29,10 @@ td {
 #top {
   color: blue;
   font-size: 150%;
+}
+
+p::first-letter {
+  font-size: 200%;
+  background-color: black;
+  color: white;
 }
