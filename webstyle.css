@@ -6,8 +6,26 @@ h1 {
   align-content: center;
 }
 
-table, th, td {
+table {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-family: verdana;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#01 {
+  color: blue;
+  font-size: 150%;
 }
