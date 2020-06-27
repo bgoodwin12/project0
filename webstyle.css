@@ -5,3 +5,9 @@ body {
 h1 {
   align-content: center;
 }
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
