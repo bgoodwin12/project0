@@ -37,10 +37,15 @@ a:link {
   font-family: monospace;
 }
 
-.intro:hover {
+/*
+p:hover {
   color: white;
   background-color: black;
   font-family: garamond;
+}
+*/
+p:hover {
+  background-color: lightblue;
 }
 
 p::first-letter {
