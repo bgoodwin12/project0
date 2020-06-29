@@ -31,8 +31,16 @@ td {
   font-size: 150%;
 }
 
+a:link {
+  color: black;
+  background-color: white;
+  font-family: monospace;
+}
+
 a:visited {
-  color: green;
+  color: white;
+  background-color: black;
+  font-family: garamond;
 }
 
 p::first-letter {
