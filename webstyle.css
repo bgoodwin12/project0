@@ -31,6 +31,10 @@ td {
   font-size: 150%;
 }
 
+.intro, a:visited {
+  color: purple;
+}
+
 p::first-letter {
   font-size: 200%;
   background-color: black;
