@@ -26,13 +26,13 @@ td {
   padding: 10px;
 }
 
+p.intro {
+  color: blue;
+}
+
 #top {
   color: blue;
   font-size: 150%;
-}
-
-div.intro {
-  background: lightblue;
 }
 
 a:link {
