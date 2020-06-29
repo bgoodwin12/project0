@@ -37,7 +37,7 @@ a:link {
   font-family: monospace;
 }
 
-a:visited {
+a:hover {
   color: white;
   background-color: black;
   font-family: garamond;
