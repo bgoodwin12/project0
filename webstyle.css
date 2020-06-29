@@ -44,8 +44,8 @@ p:hover {
   font-family: garamond;
 }
 */
-p:hover {
-  background-color: lightblue;
+h1:hover {
+  font-size: 200%;
 }
 
 p::first-letter {
