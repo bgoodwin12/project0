@@ -32,7 +32,7 @@ td {
 }
 
 .intro, a:visited {
-  color: purple;
+  color: green;
 }
 
 p::first-letter {
