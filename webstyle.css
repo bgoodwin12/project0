@@ -31,21 +31,14 @@ td {
   font-size: 150%;
 }
 
+.intro {
+  background-color: lightblue;
+}
+
 a:link {
   color: black;
   background-color: white;
   font-family: monospace;
-}
-
-/*
-p:hover {
-  color: white;
-  background-color: black;
-  font-family: garamond;
-}
-*/
-h1:hover {
-  font-size: 200%;
 }
 
 p::first-letter {
