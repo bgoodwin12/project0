@@ -37,7 +37,7 @@ a:link {
   font-family: monospace;
 }
 
-a:hover {
+.intro:hover {
   color: white;
   background-color: black;
   font-family: garamond;
