@@ -5,7 +5,7 @@ li.hobbies, table td, table th, table {
 }
 
 button, a:hover {
-  color: black;
+  color: white;
   background-color: #a9d4d9;
   font-weight: bold;
 }
@@ -19,6 +19,7 @@ a:link {
 a.nav-link {
   background-color: #546a6c;
   font-size: 125%;
+  color: black;
 }
 
 body {
@@ -37,6 +38,10 @@ table {
 table th {
   font-family: verdana;
 }
+li.hobbies {
+  padding-right: 10%;
+}
+
 div.intro {
   background-color: #a9d4d9;
 }
