@@ -2,31 +2,102 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- My CSS stylesheet with presidence over Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="build/index.css">
+
   <title> Hobbies </title>
 </head>
 
 <body>
-  <div>
-    <h1> House of Brett </h1>
-    <ul>
-      <li><a href="index.html"> Main Page </a></li>
-      <li><a href="locations.html"> Places I've Lived </a></li>
-      <li><a href="restaurants.html"> Restaurant Ratings </a></li>
-    </ul>
+  <div class="intro">
+    <div class="row mb-3">
+      <div class="col-md-8 themed-grid-col">
+        <h1> Hobbies I Enjoy </h1>
+      </div>
+
+      <div class="col-md-4 themed-grid-col">
+        <div class="dropdown">
+          <ul class="nav" role="navigation" style="align:right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Navigation
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li class="nav-item"><a class="nav-link" href="index.html"> Main Page </a></li>
+                <li class="nav-item"><a class="nav-link" href="locations.html"> Places I've Lived </a></li>
+                <li class="nav-item"><a class="nav-link" href="restaurants.html"> Restaurant Ratings </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <h2> Hobbies that I love </h2>
-  <p class="intro"> Here's a short list of my favorite activities in no particular order: </p>
+  <p> Here's a short list of my favorite activities in no particular order: </p>
+
 
   <ul>
-    <li> Skiing </li>
-    <li> Reading </li>
-    <li> Traveling </li>
-    <li> Ultimate Frisbee </li>
+    <li class="hobbies">
+      <div class="row mb-3">
+        <div class="col-md-6 themed-grid-col">
+          <h4> Skiing </h4>
+          <p> I started skiing with my dad at age 6,
+            so is is as much bonding experience as it is incrediblely relaxing and exhilarating. </p>
+        </div>
+        <div class="col-md-6 themed-grid-col">
+          <img src="photos/skiing.jpeg" alt="Skiing" width=50%>
+        </div>
+      </div>
+    </li>
+    <li class="hobbies">
+      <div class="row mb-3">
+        <div class="col-md-6 themed-grid-col">
+          <h4> Reading </h4>
+          <p> Non-fiction especially, including memoirs and histories.
+            As they say: leaders are readers. </p>
+        </div>
+        <div class="col-md-6 themed-grid-col">
+          <img src="photos/books.jpeg" alt="Books" width=50%>
+        </div>
+      </div>
+    </li>
+    <li class="hobbies">
+      <div class="row mb-3">
+        <div class="col-md-6 themed-grid-col">
+          <h4> Travel </h4>
+          <p> Living in Europe, I love the ease of access so many different cultures.
+            Soaking up other cultures is a beautiful way to spend my time. </p>
+        </div>
+        <div class="col-md-6 themed-grid-col">
+          <img src="photos/airplane.jpeg" alt="Airplane" width=50%>
+        </div>
+      </div>
+    </li>
+    <li class="hobbies">
+      <div class="row mb-3">
+        <div class="col-md-6 themed-grid-col">
+          <h4> Ultimate Frisbee </h4>
+          <p> Just a fantastic exercise.
+            I love getting out there and burning off some energy running around. </p>
+        </div>
+        <div class="col-md-6 themed-grid-col">
+          <img src="photos/frisbee.jpg" alt="Ultimate Frisbee" width=50%>
+        </div>
+      </div>
+    </li>
   </ul>
 
-  <img src=" frisbee.jpg" alt="Ultimate Frisbee" width=50%>
+
+
 </body>
 
 </html>

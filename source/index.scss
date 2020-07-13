@@ -1,0 +1,96 @@
+// index.SCSS
+
+// colors variables
+$nav-background: #a9d4d9;
+$body-background: #d9a384;
+
+// SCSS Inheritance
+%border-and-padding {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2%;
+}
+
+%invert-hover {
+  color: black;
+  background-color: $nav-background;
+  font-weight: bold;
+}
+
+
+// nesting
+a {
+  font-family: monospace;
+
+  &:link {
+    color: $nav-background;
+  }
+  &:hover {
+    @extend %invert-hover;
+  }
+  &.nav-link {
+    background-color: #546a6c;
+    font-size: 125%;
+  }
+}
+
+button {
+  @extend %invert-hover;
+}
+
+body {
+  background-color: $body-background;
+}
+
+h1 {
+  align-content: center;
+}
+
+table {
+  @extend %border-and-padding;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+
+  th {
+    @extend %border-and-padding;
+    font-family: verdana;
+  }
+  td {
+    @extend %border-and-padding;
+  }
+}
+
+li.hobbies {
+  @extend %border-and-padding;
+
+}
+
+div.intro {
+  background-color: $nav-background;
+}
+
+div.dropdown {
+  padding: 15px;
+}
+
+#top {
+  color: blue;
+  font-size: 150%;
+}
+
+p {
+  padding: 10px;
+
+  &::first-letter {
+    font-size: 150%;
+    background-color: black;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
+}

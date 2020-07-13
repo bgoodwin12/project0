@@ -2,22 +2,47 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- My CSS stylesheet with presidence over Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="build/index.css">
+
   <title>Brett's Best Mexican Restaurant</title>
 </head>
 
 <body>
-  <div>
-    <h1> House of Brett </h1>
-    <ul>
-      <li><a href="index.html"> Main Page </a></li>
-      <li><a href="hobbies.html"> Hobbies I Enjoy </a></li>
-      <li><a href="locations.html"> Places I've Lived </a></li>
-    </ul>
+  <div class="intro">
+    <div class="row mb-3">
+      <div class="col-md-8 themed-grid-col">
+        <h1> My Favorite Restaurants </h1>
+      </div>
+
+      <div class="col-md-4 themed-grid-col">
+        <div class="dropdown">
+          <ul class="nav" role="navigation" style="align:right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Navigation
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li class="nav-item"><a class="nav-link" href="index.html"> Main Page </a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html"> Hobbies I Enjoy </a></li>
+                <li class="nav-item"><a class="nav-link" href="locations.html"> Places I've Lived </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <div>
-    <p class="intro"> Here's a brief listing of my favorite Mexican Restaurants!
+    <p> Here's a brief listing of my favorite Mexican Restaurants!
       <table>
         <tr>
           <th> Restaurant </th>
@@ -27,16 +52,16 @@
         <tr>
           <td> With Love Burritos </td>
           <td> 4/5 </td>
-          <td> Good burritos - for Europe. And pickled cabbage on a burrito is a great add to my repertoire. </td>
+          <td> Maastricht, NL. Good burritos - for Europe. And pickled cabbage on a burrito is a great add to my repertoire. </td>
         <tr>
           <td id="top"> Cultivar </td>
           <td id="top"> 5/5 </td>
-          <td> Simply the best queso and margs I've ever had. Hands down. Good tacos too. </td>
+          <td> Oklahoma City, OK. Simply the best queso and margs I've ever had. Hands down. Good tacos too. </td>
         </tr>
         <tr>
           <td> Guadalajara </td>
           <td> 3/5 </td>
-          <td> We call this "dirty" Maxican. It's everything you know and love about Tex-Mex without any frills or expectations of frills. </td>
+          <td> Charlottesville, VA. We call this "dirty" Mexican. It's everything you know and love about Tex-Mex without any frills or expectations of frills. </td>
         </tr>
       </table>
 

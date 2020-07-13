@@ -2,22 +2,58 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- My CSS stylesheet with presidence over Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="build/index.css">
+
   <title>My Webpage</title>
 </head>
 
 <body>
   <div class="intro">
-    <h1> House of Brett </h1>
-    <ul>
-      <li><a href="hobbies.html"> Hobbies I Enjoy </a></li>
-      <li><a href="locations.html"> Places I've Lived </a></li>
-      <li><a href="restaurants.html"> Restaurant Ratings </a></li>
-    </ul>
+    <div class="row mb-3">
+      <div class="col-md-8 themed-grid-col">
+        <h1> House of Brett </h1>
+      </div>
+
+      <div class="col-md-4 themed-grid-col">
+        <div class="dropdown">
+          <ul class="nav" role="navigation" style="align:right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Navigation
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li class="nav-item"><a class="nav-link" href="hobbies.html"> Hobbies I Enjoy </a></li>
+                <li class="nav-item"><a class="nav-link" href="locations.html"> Places I've Lived </a></li>
+                <li class="nav-item"><a class="nav-link" href="restaurants.html"> Restaurant Ratings </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <h2> Why Make a Website? </h2>
-  <p> This website is designed to tell a little bit about me. These are secrets, but a few basic traits that make me, me! </p>
+  <p> This website is designed to tell a little bit about me.
+    These aren't secrets, but a few basic traits that make me, me! </p>
+  <p> When I was a little boy, I loved building things.
+    Legos, K'NEX, Lincoln Logs...you name it and I would build with it.
+    I'd use these things to build everything from cars to boats to hospitals.
+    But what I loved the most was rocket ships.
+    From a young age, my dad taught me about space.
+    We were always in awe of the cosmos and learning about what it takes to go there.
+    And from there I developed a love for technology.
+    To grow, to compete, to advance, we get smarter.
+    This is my goal - to learn new skills and paradigms to solve faster, build more, and go further.
+    We have so much more to learn about the world! </p>
 </body>
 
 </html>

@@ -13,21 +13,21 @@ table {
 }
 
 th {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
   font-family: verdana;
   font-size: 200%;
 }
 
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
+li.hobbies {
+  border-bottom: 1px solid black;
+  padding: 5px;
 }
 
-p.intro {
-  color: blue;
+div.intro {
+  background-color: lightblue;
+}
+
+div.dropdown {
+  padding: 15px;
 }
 
 #top {
@@ -41,8 +41,24 @@ a:link {
   font-family: monospace;
 }
 
+a:hover {
+  color: white;
+  background-color: black;
+  font-family: monospace;
+}
+
+p {
+  padding: 10px;
+}
+
 p::first-letter {
-  font-size: 200%;
+  font-size: 150%;
   background-color: black;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
 }

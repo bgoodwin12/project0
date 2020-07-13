@@ -2,29 +2,59 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- My CSS stylesheet with presidence over Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="build/index.css">
+
   <title> Places I've Lived </title>
 </head>
 
 <body>
   <div class="intro">
-    <h1> House of Brett </h1>
-    <ul>
-      <li><a href="index.html"> Main Page </a></li>
-      <li><a href="hobbies.html"> Hobbies I Enjoy </a></li>
-      <li><a href="restaurants.html"> Restaurant Ratings </a></li>
-    </ul>
+    <div class="row mb-3">
+      <div class="col-md-8 themed-grid-col">
+        <h1> Places I've Lived </h1>
+      </div>
+
+      <div class="col-md-4 themed-grid-col">
+        <div class="dropdown">
+          <ul class="nav" role="navigation" style="align:right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Navigation
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li class="nav-item"><a class="nav-link" href="index.html"> Main Page </a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html"> Hobbies I Enjoy </a></li>
+                <li class="nav-item"><a class="nav-link" href="restaurants.html"> Restaurant Ratings </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <div>
-    <p class="intro"> A short list of the places I have lived: <p>
-        <ul>
-          <li> Houston, TX </li>
-          <li> Leesburg, VA </li>
-          <li> Charlottesville, VA </li>
-          <li> Oklahoma City, OK </li>
-          <li> Maastricht, Netherlands </li>
-        </ul>
+    <p> A short list of the places I have lived: </p>
+
+    <ul>
+      <li> Houston, TX </li>
+      <li> Leesburg, VA </li>
+      <li> <a href="https://en.wikipedia.org/wiki/Charlottesville,_Virginia"> Charlottesville, VA </a> </li>
+      <li> Oklahoma City, OK </li>
+      <li> <a href="https://en.wikipedia.org/wiki/Maastricht"> Maastricht, Netherlands </a> </li>
+    </ul>
+
+    <p> I don't mind moving every 3-4 years and have got to experience some fantastic places.
+      Hopefully, someday I'll move a little closer to a beach :) </p>
+
   </div>
 </body>
 
