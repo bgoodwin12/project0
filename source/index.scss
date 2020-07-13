@@ -21,6 +21,7 @@ $body-background: #d9a384;
 // nesting
 a {
   font-family: monospace;
+  color: white;
 
   &:link {
     color: $nav-background;
@@ -31,7 +32,6 @@ a {
   &.nav-link {
     background-color: #546a6c;
     font-size: 125%;
-    color: black;
   }
 }
 

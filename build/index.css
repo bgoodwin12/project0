@@ -12,6 +12,7 @@ button, a:hover {
 
 a {
   font-family: monospace;
+  color: white;
 }
 a:link {
   color: #a9d4d9;
@@ -19,7 +20,6 @@ a:link {
 a.nav-link {
   background-color: #546a6c;
   font-size: 125%;
-  color: black;
 }
 
 body {
